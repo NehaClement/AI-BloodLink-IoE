@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI-BloodLink | Internet of Everything Blood Bank Network</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="/css/style.css?v=2">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-logo"><svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg></div>
+        <div><b>AI-BloodLink</b><small>Internet of Everything</small></div>
+      </div>
+      <nav class="nav" id="nav"></nav>
+      <div class="side-foot"><b style="color:#e2e8f0">Version 2</b><br>Backtest · Compatibility · Data import</div>
+    </aside>
+    <div class="content">
+      <header class="topbar">
+        <div><h1 id="title">Dashboard</h1><div class="sub" id="subtitle"></div></div>
+        <div class="top-right">
+          <span class="pill" id="clock"></span>
+          <span class="pill"><span class="dot" id="ledger-dot"></span><span id="ledger-text">Ledger</span></span>
+        </div>
+      </header>
+      <main id="view"><div class="loading">Loading…</div></main>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/js/app.js?v=2"></script>
+</body>
+</html>
